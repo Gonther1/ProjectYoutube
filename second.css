@@ -56,6 +56,40 @@ html, body, .first{
     width: 100%;
     height: 100%;
 }
+.first-header-input {
+    width: 40%;
+    height: 80%;
+    border-radius: 40px;
+}
+.first-header-information {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first-header-search {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    width: 50%;
+    height: 65%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+.first-header-search-input {
+    margin: 0 0 0 3%;
+    height: 100%;
+    width: 87%;
+    font-size: large;
+    border: none;
+}
+.fa-magnifying-glass {
+    padding: 12px;
+    margin-left: 4px;
+    color: black;
+}
+
+/* Main */
 .main {
     width: 100%;
     height: 90%;

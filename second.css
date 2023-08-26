@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, .first {
+    width: 100%;
+    height: 1000vh;
+}
+.first .div {
+    border: 1px solid black;
+}
+.first-header, .first-aside-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+}
+.first-aside-header {
+    width: 20%;
+}
+.first-header-checkbtn, .first-aside-checkbtn {
+    font-size: 30px;
+    padding: 14px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#first-header-check, #first-aside-check {
+    display: none;
+}
+.first-aside {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: red;
+    left: -20%;
+    transition: all .2s ;
+}
+#first-header-check:checked ~div {
+    left: 0;
+}
+#first-header-check:not(:checked) .first-aside {
+    left: -20%;
+}
+.main {
+    width: 100%;
+    height: 100%;
+}

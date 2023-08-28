@@ -18,9 +18,6 @@ html, body, .first{
 .first-aside-header {
     width: 20%;
 }
-.first-header input, .first-header label ,.first-header i,.first-header a, .first-header div {
-    overflow: hidden;
-}  
 .first-header-checkbtn, .first-aside-checkbtn {
     font-size: 30px;
     padding: 14px;
